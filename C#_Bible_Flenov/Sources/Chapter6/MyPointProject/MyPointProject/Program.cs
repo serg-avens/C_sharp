@@ -8,8 +8,9 @@ namespace MyPointProject
         {
             MyPoint p1 = new MyPoint(10, 10);
             MyPoint p2 = new MyPoint(20, 20);
-            Console.WriteLine("Точка 1 ->" +p1);
-            Console.WriteLine("Точка 2 ->" + p2);
+            Console.WriteLine("Точка 1 -> " +p1);
+            Console.WriteLine("Точка 2 -> " + p2);
+            Console.WriteLine("Точка 3 суммарная -> " + (p1 + p2));
         }
     }
 }

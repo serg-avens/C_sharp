@@ -29,5 +29,10 @@ namespace MyPointProject
         {
             return x.ToString() + ":" + y.ToString();
         }
+
+        public static MyPoint operator + (MyPoint p1, MyPoint p2)
+        {
+            return new MyPoint(p1.X + p2.X, p1.Y + p2.Y);
+        }
     }
 }
